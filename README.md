@@ -52,3 +52,8 @@ echo "GROQ_API_KEY=your_groq_api_key_here" >> .env
 ```bash
 python app.py
 ```
+
+## Documentation
+<a href="https://github.com/mdtayebadnan/AcademicMAS/blob/main/reports/First_Report.pdf">First Assignment</a>
+<a href="https://github.com/mdtayebadnan/AcademicMAS/blob/main/reports/Second_Report.pdf">Second Assignment</a>
+
