@@ -1,0 +1,9 @@
+spade
+langchain
+openai
+flask
+fastapi
+mysql-connector-python
+pymysql
+streamlit
+pytest
