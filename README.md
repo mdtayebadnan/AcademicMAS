@@ -21,14 +21,14 @@ This project presents a Multi-Agent Research Assistant System designed to automa
 - **Natural Language Processing:** Langchain (for LLM integration and natural language tasks)
 - **Retrieval-Augmented Generation (RAG):** For combining language models with external knowledge retrieval systems
 
-🚀 ##Quick Start
+## 🚀 Quick Start
 ### Prerequisites
 - Python 3.11+
 - Docker (optional)
 - Groq API Key
 
 ### 1. Clone and Setup
-```bash
+```
 git clone https://github.com/mdtayebadnan/AcademicMAS.git
 cd academicmas
 
@@ -37,6 +37,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 2. Environment Configuration
