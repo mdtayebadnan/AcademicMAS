@@ -54,6 +54,6 @@ python app.py
 ```
 
 ## Documentation
-<a href="https://github.com/mdtayebadnan/AcademicMAS/blob/main/reports/First_Report.pdf">First Assignment</a>
+<a href="https://github.com/mdtayebadnan/AcademicMAS/blob/main/reports/First_Report.pdf">First Assignment</a> <br>
 <a href="https://github.com/mdtayebadnan/AcademicMAS/blob/main/reports/Second_Report.pdf">Second Assignment</a>
 
