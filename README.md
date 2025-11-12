@@ -3,8 +3,15 @@ AcademicMAS is a multi-agent system developed as part of the course requirements
 
 ## Prepared by:
 **Name:** Md Tayeb Adnan 
+
 **UCID#** 30292333
+
+
 **Course Title:** Agent-Based Software Engineering
+
+
 **Course Code:** SENG 696
+
 **Instructor:** Professor Behrouz Far
+
 University of Calgary | Fall 2025
