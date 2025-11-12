@@ -29,4 +29,14 @@ This project presents a Multi-Agent Research Assistant System designed to automa
 
 ### 1. Clone and Setup
 ```bash
-export OPENAI_API_KEY="your-openai-api-key"
+git clone https://github.com/mdtayebadnan/AcademicMAS.git
+cd academicmas
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt```
+
+2. Environment Configuration
