@@ -20,3 +20,13 @@ This project presents a Multi-Agent Research Assistant System designed to automa
 - **Communication:** FIPA-ACL via REST API
 - **Natural Language Processing:** Langchain (for LLM integration and natural language tasks)
 - **Retrieval-Augmented Generation (RAG):** For combining language models with external knowledge retrieval systems
+
+🚀 ##Quick Start
+### Prerequisites
+- Python 3.11+
+- Docker (optional)
+- Groq API Key
+
+### 1. Clone and Setup
+```bash
+export OPENAI_API_KEY="your-openai-api-key"
