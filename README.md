@@ -28,7 +28,7 @@ This project presents a Multi-Agent Research Assistant System designed to automa
 - Groq API Key
 
 ### 1. Clone and Setup
-```
+```bash
 git clone https://github.com/mdtayebadnan/AcademicMAS.git
 cd academicmas
 
