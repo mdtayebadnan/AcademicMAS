@@ -50,7 +50,7 @@ echo "GROQ_API_KEY=your_groq_api_key_here" >> .env
 ```
 ### 3. Run the Application
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 ## Documentation
