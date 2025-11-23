@@ -24,6 +24,8 @@ This project presents a Multi-Agent Research Assistant System designed to automa
 ## 🚀 Quick Start
 ### Prerequisites
 - Python 3.11+
+- SPADE 3.3.0+
+- SPADE_LLM
 - Docker (optional)
 - Groq API Key
 
