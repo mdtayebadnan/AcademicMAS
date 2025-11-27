@@ -41,21 +41,32 @@ The Multi-Agent Research Assistant (Academic MAS) automates key academic researc
 | **Citation**               | Manage references and citation insertion                               | Completed research report                           | BibTeX-formatted citations, references.bib, clickable links|
 
 ## 📁 Project Structure
-'''ai-agents-system/
+```bash
+AcademicMAS/
 ├── app.py # FastAPI application
-├── requirements.txt # Python dependencies
+├── requirements.txt # required dependencies
 ├── Dockerfile # Container configuration
 ├── docker-compose.yml # Multi-container setup
 ├── .env.example # Environment template
 ├── .gitignore # Git ignore rules
-├── graph/
-│ └── graph.py # LangGraph workflow orchestration
+├── UI/
+│ └── AcademicMAS.png # Image visualization of User interface
 ├── agents/
-│ ├── agent1_summarizer.py # Document summarization
-│ ├── agent2_query_responder.py # Document-based Q&A
-│ ├── agent3_internet_agent.py # Web search
-│ └── agent4_manager.py # Intelligent routing
-└── README.md # This documentation'''
+│ ├── summerizer.py # Document summarization
+│ ├── chat-with-pdf.py # Document-based Q&A
+│ ├── citation_agent.py # citation generator
+│ └── literature_search.py # searching literature
+├── pages/ # pages all are for user interface with streamlit
+│ ├── home_page.py
+| ├── summerizer_page.py 
+│ ├── chat-with-pdf.py 
+│ ├── citation_page.py 
+│ └── literature_page.py 
+├── reports/ 
+│ ├── First_Report.pdf #First assignment submission
+| ├── Second_Report.pdf  #Second assignment submission
+└── README.md # This documentation
+```
 
 ## 🚀 Quick Start
 ### Prerequisites
