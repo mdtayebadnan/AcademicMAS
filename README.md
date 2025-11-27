@@ -25,12 +25,16 @@ This project presents a Multi-Agent Research Assistant System designed to automa
 - **Retrieval-Augmented Generation (RAG):** For combining language models with external knowledge retrieval systems
 
 ## 🤖 Agents
-| Agent  | Purpose                           | Input               | Output                        |
-|--------|-----------------------------------|---------------------|-------------------------------|
-| Agent 1 | Document Summarizer & Keywords    | Documents           | Summary + Keywords            |
-| Agent 2 | Query Responder                   | Query + Documents   | Document-based Answer         |
-| Agent 3 | Internet Search                   | Query               | Real-time Web Information     |
-| Manager | Intelligent Routing               | User Input + Context| Agent Selection Logic         |
+| Agent                     | Purpose                                                                 | Input                                               | Output                                                     |
+|---------------------------|-------------------------------------------------------------------------|-----------------------------------------------------|------------------------------------------------------------|
+| **Manager / Orchestrator** | Central planner and task dispatcher                                     | User prompt or uploaded file metadata               | Final report artifact, status messages                     |
+| **PDF Parser**             | Extract text, metadata, figures, and sections from uploaded PDFs       | PDF file path                                       | Document object with sections, figures, DOI, etc.          |
+| **Literature Search**      | Discover relevant literature for a query                                | Query keywords and constraints                      | Ranked list of paper metadata and links                    |
+| **Paraphraser**            | Paraphrase a paragraph (from PDF or text box)                           | Paragraph (text input from PDF or text box)          | Paraphrased version of the input text                      |
+| **Summarizer**             | Generate concise summaries of research documents or topics             | Retrieved content from Knowledge Base               | Structured summaries: abstract, methods, results, etc.     |
+| **Citation**               | Manage references and citation insertion                               | Completed research report                           | BibTeX-formatted citations, references.bib, clickable links|
+
+
 
 ## 🚀 Quick Start
 ### Prerequisites
