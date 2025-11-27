@@ -15,14 +15,20 @@ This project presents a Multi-Agent Research Assistant System designed to automa
 ![Home Page](UI/AcademicMas.png)
 
 
-## 🧰 Technology Stack
+## 🧰 Tools & Libraries Used
 
-- **Agent Framework:** SPADE (Smart Python Multi-Agent Development Environment)
-- **Backend:** Python (Flask/FastAPI) with MySQL 8.0
-- **Frontend:** Streamlit
-- **Communication:** FIPA-ACL via REST API
-- **Natural Language Processing:** Langchain (for LLM integration and natural language tasks)
-- **Retrieval-Augmented Generation (RAG):** For combining language models with external knowledge retrieval systems
+| Tool/Library                        | Purpose                                                |
+|-------------------------------------|--------------------------------------------------------|
+| **Python**                          | Programming language for developing the system        |
+| **SPADE** | Smart Python-based solution for multi-agent systems |
+| **SPADE LLM** | Multi-Agent system with LLM integration              |
+| **LangChain**                       | RAG pipeline, QA Chain                                |
+| **Transformers**                    | Model & tokenizer loading                             |
+| **Sentence Transformers**           | Chunk embeddings                                      |
+| **Streamlit (optional)**            | For UI (if used)                                      |
+| **PyMuPDF / python-docx**           | PDF/Docx file parsing                                 |
+| **VS Code**                         | Development environment                               |
+
 
 ## 🤖 Agents
 | Agent                     | Purpose                                                                 | Input                                               | Output                                                     |
@@ -33,7 +39,6 @@ This project presents a Multi-Agent Research Assistant System designed to automa
 | **Paraphraser**            | Paraphrase a paragraph (from PDF or text box)                           | Paragraph (text input from PDF or text box)          | Paraphrased version of the input text                      |
 | **Summarizer**             | Generate concise summaries of research documents or topics             | Retrieved content from Knowledge Base               | Structured summaries: abstract, methods, results, etc.     |
 | **Citation**               | Manage references and citation insertion                               | Completed research report                           | BibTeX-formatted citations, references.bib, clickable links|
-
 
 
 ## 🚀 Quick Start
