@@ -43,29 +43,29 @@ The Multi-Agent Research Assistant (Academic MAS) automates key academic researc
 ## 📁 Project Structure
 ```bash
 AcademicMAS/
-├── app.py # FastAPI application
-├── requirements.txt # required dependencies
-├── Dockerfile # Container configuration
-├── docker-compose.yml # Multi-container setup
-├── .env.example # Environment template
-├── .gitignore # Git ignore rules
+├── app.py                # FastAPI application
+├── requirements.txt      # Required dependencies
+├── Dockerfile            # Container configuration
+├── docker-compose.yml    # Multi-container setup
+├── .env.example          # Environment template
+├── .gitignore            # Git ignore rules
 ├── UI/
-│ └── AcademicMAS.png # Image visualization of User interface
+│   └── AcademicMAS.png   # Image visualization of User interface
 ├── agents/
-│ ├── summerizer.py # Document summarization
-│ ├── chat-with-pdf.py # Document-based Q&A
-│ ├── citation_agent.py # citation generator
-│ └── literature_search.py # searching literature
-├── pages/ # pages all are for user interface with streamlit
-│ ├── home_page.py
-| ├── summerizer_page.py 
-│ ├── chat-with-pdf.py 
-│ ├── citation_page.py 
-│ └── literature_page.py 
-├── reports/ 
-│ ├── First_Report.pdf #First assignment submission
-| ├── Second_Report.pdf  #Second assignment submission
-└── README.md # This documentation
+│   ├── summerizer.py     # Document summarization
+│   ├── chat-with-pdf.py  # Document-based Q&A
+│   ├── citation_agent.py # Citation generator
+│   └── literature_search.py # Searching literature
+├── pages/                # Pages for user interface with Streamlit
+│   ├── home_page.py
+│   ├── summerizer_page.py
+│   ├── chat-with-pdf.py
+│   ├── citation_page.py
+│   └── literature_page.py
+├── reports/
+│   ├── First_Report.pdf  # First assignment submission
+│   ├── Second_Report.pdf # Second assignment submission
+└── README.md             # This documentation
 ```
 
 ## 🚀 Quick Start
