@@ -10,7 +10,7 @@ AcademicMAS is a multi-agent system developed as part of the course requirements
 - University of Calgary | Fall 2025
 
 ## 🧾 Overview 
-This project presents a Multi-Agent Research Assistant System designed to automate key research tasks, such as literature review, data analysis, and report writing. The system uses specialized agents for PDF parsing, literature search, summarization, knowledge management, analysis, citation generation, and report writing. A central Orchestrator Agent detects the input type (text query or PDF) and delegates tasks to the appropriate agents, streamlining the research process. By automating repetitive tasks, the system enhances efficiency, ensures consistency, and reduces manual workload, ultimately supporting more productive and accurate research. This framework showcases the potential of multi-agent systems to improve academic and industry research workflows.
+The Multi-Agent Research Assistant (Academic MAS) automates key academic research tasks. It uses specialized agents to parse PDFs, chat with PDFs, search for relevant literature, summarize content, paraphrase text, and generate citations.
 
 ![Home Page](UI/AcademicMas.png)
 
@@ -40,6 +40,22 @@ This project presents a Multi-Agent Research Assistant System designed to automa
 | **Summarizer**             | Generate concise summaries of research documents or topics             | Retrieved content from Knowledge Base               | Structured summaries: abstract, methods, results, etc.     |
 | **Citation**               | Manage references and citation insertion                               | Completed research report                           | BibTeX-formatted citations, references.bib, clickable links|
 
+## 📁 Project Structure
+'''ai-agents-system/
+├── app.py # FastAPI application
+├── requirements.txt # Python dependencies
+├── Dockerfile # Container configuration
+├── docker-compose.yml # Multi-container setup
+├── .env.example # Environment template
+├── .gitignore # Git ignore rules
+├── graph/
+│ └── graph.py # LangGraph workflow orchestration
+├── agents/
+│ ├── agent1_summarizer.py # Document summarization
+│ ├── agent2_query_responder.py # Document-based Q&A
+│ ├── agent3_internet_agent.py # Web search
+│ └── agent4_manager.py # Intelligent routing
+└── README.md # This documentation'''
 
 ## 🚀 Quick Start
 ### Prerequisites
