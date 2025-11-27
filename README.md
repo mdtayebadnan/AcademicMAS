@@ -12,6 +12,9 @@ AcademicMAS is a multi-agent system developed as part of the course requirements
 ## Overview 
 This project presents a Multi-Agent Research Assistant System designed to automate key research tasks, such as literature review, data analysis, and report writing. The system uses specialized agents for PDF parsing, literature search, summarization, knowledge management, analysis, citation generation, and report writing. A central Orchestrator Agent detects the input type (text query or PDF) and delegates tasks to the appropriate agents, streamlining the research process. By automating repetitive tasks, the system enhances efficiency, ensures consistency, and reduces manual workload, ultimately supporting more productive and accurate research. This framework showcases the potential of multi-agent systems to improve academic and industry research workflows.
 
+![Home Page](UI/AcademicMas.png)
+
+
 ## Technology Stack
 
 - **Agent Framework:** SPADE (Smart Python Multi-Agent Development Environment)
