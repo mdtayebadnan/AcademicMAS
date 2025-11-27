@@ -9,13 +9,13 @@ AcademicMAS is a multi-agent system developed as part of the course requirements
 - **Instructor:** Professor Behrouz Far  <br>
 - University of Calgary | Fall 2025
 
-## Overview 
+## 🧾 Overview 
 This project presents a Multi-Agent Research Assistant System designed to automate key research tasks, such as literature review, data analysis, and report writing. The system uses specialized agents for PDF parsing, literature search, summarization, knowledge management, analysis, citation generation, and report writing. A central Orchestrator Agent detects the input type (text query or PDF) and delegates tasks to the appropriate agents, streamlining the research process. By automating repetitive tasks, the system enhances efficiency, ensures consistency, and reduces manual workload, ultimately supporting more productive and accurate research. This framework showcases the potential of multi-agent systems to improve academic and industry research workflows.
 
 ![Home Page](UI/AcademicMas.png)
 
 
-## Technology Stack
+## 🧰 Technology Stack
 
 - **Agent Framework:** SPADE (Smart Python Multi-Agent Development Environment)
 - **Backend:** Python (Flask/FastAPI) with MySQL 8.0
@@ -23,6 +23,14 @@ This project presents a Multi-Agent Research Assistant System designed to automa
 - **Communication:** FIPA-ACL via REST API
 - **Natural Language Processing:** Langchain (for LLM integration and natural language tasks)
 - **Retrieval-Augmented Generation (RAG):** For combining language models with external knowledge retrieval systems
+
+## 🤖 Agents
+| Agent  | Purpose                           | Input               | Output                        |
+|--------|-----------------------------------|---------------------|-------------------------------|
+| Agent 1 | Document Summarizer & Keywords    | Documents           | Summary + Keywords            |
+| Agent 2 | Query Responder                   | Query + Documents   | Document-based Answer         |
+| Agent 3 | Internet Search                   | Query               | Real-time Web Information     |
+| Manager | Intelligent Routing               | User Input + Context| Agent Selection Logic         |
 
 ## 🚀 Quick Start
 ### Prerequisites
