@@ -55,6 +55,8 @@ AcademicMAS/
 │   ├── summerizer.py     # Document summarization
 │   ├── chat-with-pdf.py  # Document-based Q&A
 │   ├── citation_agent.py # Citation generator
+    ├── knowledge_base_agent.py  # Document-based Q&A
+│   ├── manager_agent.py
 │   └── literature_search.py # Searching literature
 ├── pages/                # Pages for user interface with Streamlit
 │   ├── home_page.py
